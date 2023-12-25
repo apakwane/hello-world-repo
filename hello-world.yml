@@ -1,0 +1,8 @@
+name: hellow orld
+on: push
+  job:
+    name:hello-job
+    runs-on: ubuntu-latest
+    step:
+      name: Echo text
+      run: echo "Hello, world!"
